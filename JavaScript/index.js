@@ -1,11 +1,10 @@
-
+// File created by Remco Wammes on 21/08/2018
 const writeHTML = (html) => {
     document.getElementById("container").innerHTML += (html);
 }
-
-
+// The input
 writeHTML("<input type='text' id='inputAdd' class='uk-input' >");
-
+// The Submit button
 writeHTML("<button class='uk-button-primary' id='submit'>Submit</button>" + "<br>");
 
 document.getElementById('submit').addEventListener('click', function (){

@@ -1,3 +1,4 @@
+/* File created by Remco Wammes on 21/08/2018 */ 
 #container{
     text-align: center;
     width: 100%;
@@ -24,18 +25,19 @@ button{
     margin-left: 25px;
 }
 #remove{
+    margin-top: 20px;
     margin-left: 20px;
 }
 #todolist{
     text-align: center;
     text-decoration: none;
-    box-shadow: 4px 4px white;
+    
     border-radius: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 500px;
-    height: 350px;
+    width: 40vh;
+    height: 30vh;
     background: black;
 }
 li, ul{
